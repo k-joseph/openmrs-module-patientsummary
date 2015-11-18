@@ -18,7 +18,6 @@ import java.util.Date;
 import java.util.List;
 
 import org.junit.Test;
-import org.openmrs.Cohort;
 import org.openmrs.Concept;
 import org.openmrs.Location;
 import org.openmrs.Obs;
@@ -28,7 +27,6 @@ import org.openmrs.module.patientsummary.api.PatientSummaryService;
 import org.openmrs.module.reporting.common.DateUtil;
 import org.openmrs.module.reporting.common.TimeQualifier;
 import org.openmrs.module.reporting.data.patient.definition.EncountersForPatientDataDefinition;
-import org.openmrs.module.reporting.data.person.EvaluatedPersonData;
 import org.openmrs.module.reporting.data.person.definition.AgeDataDefinition;
 import org.openmrs.module.reporting.data.person.definition.BirthdateDataDefinition;
 import org.openmrs.module.reporting.data.person.definition.GenderDataDefinition;
@@ -36,9 +34,7 @@ import org.openmrs.module.reporting.data.person.definition.ObsActiveListPersonDa
 import org.openmrs.module.reporting.data.person.definition.ObsForPersonDataDefinition;
 import org.openmrs.module.reporting.data.person.definition.PreferredAddressDataDefinition;
 import org.openmrs.module.reporting.data.person.definition.PreferredNameDataDefinition;
-import org.openmrs.module.reporting.data.person.service.PersonDataService;
 import org.openmrs.module.reporting.dataset.definition.PatientDataSetDefinition;
-import org.openmrs.module.reporting.evaluation.EvaluationContext;
 import org.openmrs.test.BaseModuleContextSensitiveTest;
 
 /**
